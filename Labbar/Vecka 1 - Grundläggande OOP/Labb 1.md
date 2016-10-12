@@ -20,3 +20,7 @@
 	3. Show info
 	4. Exit
 * Användaren ska kunna använda menyn för att lägga till och ta bort objekt samt skriva ut info om objekten och avsluta applikationen
+
+### Inlämning
+* Lägg upp det färdiga projektet i ert Git repository.
+* Maila länken till repositoryt till mig på john.fristedt@chas.se.

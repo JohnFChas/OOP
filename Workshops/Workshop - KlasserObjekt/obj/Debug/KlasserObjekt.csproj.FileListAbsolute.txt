@@ -4,3 +4,6 @@ C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\KlasserObjekt\KlasserObjekt\b
 C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\KlasserObjekt\KlasserObjekt\obj\Debug\KlasserObjekt.csprojResolveAssemblyReference.cache
 C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\KlasserObjekt\KlasserObjekt\obj\Debug\KlasserObjekt.exe
 C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\KlasserObjekt\KlasserObjekt\obj\Debug\KlasserObjekt.pdb
+C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\Workshop - KlasserObjekt\bin\Debug\KlasserObjekt.exe.config
+C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\Workshop - KlasserObjekt\obj\Debug\KlasserObjekt.exe
+C:\Users\John\ownCloud\Lernia\OOP\OOPGit\Workshops\Workshop - KlasserObjekt\obj\Debug\KlasserObjekt.pdb
