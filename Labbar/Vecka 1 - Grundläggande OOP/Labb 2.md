@@ -1,5 +1,9 @@
 ﻿# Labb 2 - Arv och Polymorfism
 ### Del 1
+* Läs igenom uppgiften och identifiera alla klasser du kommer behöva skapa
+* Rita upp dina klasser och deras förhållanden i ett klassdiagram
+
+### Del 2
 * Skapa ett nytt console project i Visual Studio
 * Skapa en abtrakt klass som heter "Animal"
 	* Ge klassen properties och en eller flera metoder som är gemensamma för alla Animals. Exempel på properties skulle kunna vara Age och Weight, en metod för Animal kan vara Move() som beskriver hur djuret rör på sig eller Talk() som beskriver dess läte
@@ -9,7 +13,7 @@
 	* Ge även dessa passande properties
 	* Använd override på metoden i "Animal" för att ge varje typ av djur ett eget beteende
 
-### Del 2
+### Del 3
 * Skapa listor för de olika djuren
 * Lägg till en main menu där användaren kan:
 	* Lägga till objekt
