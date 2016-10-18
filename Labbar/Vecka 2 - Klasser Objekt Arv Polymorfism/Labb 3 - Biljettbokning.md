@@ -4,7 +4,7 @@
 	1. Identifiera de klasser som kommer behövas och rita ut dem i ett klassdiagram
 	2. Skapa en tydlig mappstruktur i ditt projekt för alla klasser
 * Kom ihåg att tänka objektorienterat, dvs. hur kan vi implementera arv och polymorfism?
-* Använd LINQ när du jobbar med kollektioner (listor, arrayer etc.)
+* Försök använda LINQ när du jobbar med kollektioner (listor, arrayer etc.)
 
 ### Del 2
 * Skapa ett nytt console project i Visual Studio
