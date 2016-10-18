@@ -1,23 +1,24 @@
-# Labb 4 - Bosses bilar och bågar
+# Labb 4 - Bosses bilar och bÃ¥gar
 ### Del 1
-* Läs igenom och analysera uppgiften
-	1. Indentifiera klasser, properties och metoder som kommer behöva skapas och rita ut dem i ett klassdiagram
-	2. Skapa en tydlig mappstruktur i ditt projekt för alla klasser
-* Kom ihåg att tänka objektorienterat!
+* LÃ¤s igenom och analysera uppgiften
+	1. Indentifiera klasser, properties och metoder som kommer behÃ¶va skapas och rita ut dem i ett klassdiagram
+	2. Skapa en tydlig mappstruktur i ditt projekt fÃ¶r alla klasser
+* Kom ihÃ¥g att tÃ¤nka objektorienterat!
+* FÃ¶rsÃ¶k anvÃ¤nda LINQ nÃ¤r du jobbar med kollektioner
 
 ### Del 2
 * Skapa ett nytt console project i Visual Studio
-* Bosses bilar och bågar är ett företag som köper och säljer bilar och motorcyklar, du ska bygga ett system som hjälper Bosse att driva sitt företag
+* Bosses bilar och bÃ¥gar Ã¤r ett fÃ¶retag som kÃ¶per och sÃ¤ljer bilar och motorcyklar, du ska bygga ett system som hjÃ¤lper Bosse att driva sitt fÃ¶retag
 * Systemet ska kunna:
-	1. Hålla reda på vad som finns i lager och hur många av varje modell som finns hemma samt skriva ut lagerinfo
-	2. Lägga till och ta bort bilar och motorcyklar ur systemet
-	3. Köpa in och sälja fordon, begagnade fordon ska hanteras separat
+	1. HÃ¥lla reda pÃ¥ vad som finns i lager och hur mÃ¥nga av varje modell som finns hemma samt skriva ut lagerinfo
+	2. LÃ¤gga till och ta bort bilar och motorcyklar ur systemet
+	3. KÃ¶pa in och sÃ¤lja fordon, begagnade fordon ska hanteras separat
 * Varje fordon ska ha:
 	1. Ett pris
-	2. Tillvärkare/märke
+	2. TillvÃ¤rkare/mÃ¤rke
 	3. Modell
 	4. Mer om du vill
 
-### Inlämning
-* Lägg upp det färdiga projektet i ert Git repository
-* Maila länken till repositoryt till mig på john.fristedt@chas.se
+### InlÃ¤mning
+* LÃ¤gg upp det fÃ¤rdiga projektet i ert Git repository
+* Maila lÃ¤nken till repositoryt till mig pÃ¥ john.fristedt@chas.se
