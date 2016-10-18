@@ -1,4 +1,5 @@
-﻿# Labb 1 - Klasser och objekt
+﻿﻿# Labb 1 - Klasser och objekt
+
 ### Del 1
 * Skapa ett nytt console project i Visual Studio
 * Skapa klassen "Dog"
@@ -23,4 +24,5 @@
 
 ### Inlämning
 * Lägg upp det färdiga projektet i ert Git repository.
+
 * Maila länken till repositoryt till mig på john.fristedt@chas.se.

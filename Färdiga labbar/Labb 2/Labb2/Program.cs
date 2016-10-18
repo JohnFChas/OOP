@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Labb1
+namespace Labb2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var runtime = new Runtime();
+            Runtime runtime = new Runtime();
             runtime.Start();
         }
     }
