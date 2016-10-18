@@ -42,6 +42,7 @@ namespace Labb2
             {
                 string hasFur = dog.HasFur ? "the dog has fur" : "the dog does not have fur";
                 Console.WriteLine("{0}, {1}, {2}, {3}, {4}", dog.Name, dog.Age, dog.Weight, dog.TailLength, hasFur);
+                Console.WriteLine("Dog movement: {0}", dog.Move());
             }
             Console.ReadKey(true);
         }

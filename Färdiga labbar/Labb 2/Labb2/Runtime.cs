@@ -8,8 +8,6 @@ namespace Labb2
 {
     class Runtime
     {
-        public object Manager { get; private set; }
-
         public void Start()
         {
             AnimalManager manager = new AnimalManager();
