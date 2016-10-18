@@ -1,24 +1,25 @@
 # Labb 3 - Biljettbokning
 ### Del 1
-* Läs igenom och analysera uppgiften
-	1. Identifiera de klasser som kommer behövas och rita ut dem i ett klassdiagram
-	2. Skapa en tydlig mappstruktur i ditt projekt för alla klasser
-* Kom ihåg att tänka objektorienterat, dvs. hur kan vi implementera arv och polymorfism?
+* LÃ¤s igenom och analysera uppgiften
+	1. Identifiera de klasser som kommer behÃ¶vas och rita ut dem i ett klassdiagram
+	2. Skapa en tydlig mappstruktur i ditt projekt fÃ¶r alla klasser
+* Kom ihÃ¥g att tÃ¤nka objektorienterat, dvs. hur kan vi implementera arv och polymorfism?
+* FÃ¶rsÃ¶k anvÃ¤nda LINQ nÃ¤r du jobbar med kollektioner (listor, arrayer etc.)
 
 ### Del 2
 * Skapa ett nytt console project i Visual Studio
-* Programmet ska låta användaren boka biljetter till:
+* Programmet ska lÃ¥ta anvÃ¤ndaren boka biljetter till:
 	* Konserter
 	* Filmer
 	* Festivaler
 	* Fler om du vill
-* När man bokar ska det gå att se info om de evenemang som finns tillgängliga
-* Varje bokning ska innehålla:
-	1. Namn på personen som bokat
-	2. Namn och typ på evenemanget
+* NÃ¤r man bokar ska det gÃ¥ att se info om de evenemang som finns tillgÃ¤ngliga
+* Varje bokning ska innehÃ¥lla:
+	1. Namn pÃ¥ personen som bokat
+	2. Namn och typ pÃ¥ evenemanget
 	3. Mer info om du vill
-* Användaren ska kunna se alla sina bokningar samt kort info för varje bokning
+* AnvÃ¤ndaren ska kunna se alla sina bokningar samt kort info fÃ¶r varje bokning
 
-### Inlämning
-* Lägg upp det färdiga projektet i ditt Git repository
-* Maila länken till repositoryt till mig på john.fristedt@chas.se
+### InlÃ¤mning
+* LÃ¤gg upp det fÃ¤rdiga projektet i ditt Git repository
+* Maila lÃ¤nken till repositoryt till mig pÃ¥ john.fristedt@chas.se
