@@ -24,3 +24,4 @@ Du ska i den här labben bygga ett system i samma anda som det vi byggde tillsamm
 
 ### Extrauppgift (om allt annat är klart och du har tid över)
 * Spara din data till någon sorts fil istället för att bara jobba mot en lista
+* Se till att update fortfarande funkar
