@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Workshop___LINQ
+namespace Workshop___Repository_Interface
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Runtime runtime = new Runtime();
-            runtime.Start();
+            var client = new Client();
+            client.Start();
         }
     }
 }

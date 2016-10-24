@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0D377E7-7ACF-45D2-9EAD-78497EDC50D0}</ProjectGuid>
+    <ProjectGuid>{2A843FD4-4987-4ED1-9573-6C7E6418DCDA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Workshop___LINQ</RootNamespace>
-    <AssemblyName>Workshop - LINQ</AssemblyName>
+    <RootNamespace>Workshop___Repository_Interface</RootNamespace>
+    <AssemblyName>Workshop - Repository Interface</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonMeta.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Controllers\GamesController.cs" />
+    <Compile Include="DataStores\MyLists.cs" />
+    <Compile Include="DataStores\Repositories\IRepository.cs" />
+    <Compile Include="DataStores\Repositories\ListRepository.cs" />
+    <Compile Include="Models\Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Runtime.cs" />
+    <Compile Include="UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

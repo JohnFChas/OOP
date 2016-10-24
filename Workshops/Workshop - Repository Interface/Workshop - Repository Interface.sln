@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop - LINQ", "Workshop - LINQ.csproj", "{D0D377E7-7ACF-45D2-9EAD-78497EDC50D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop - Repository Interface", "Workshop - Repository Interface.csproj", "{2A843FD4-4987-4ED1-9573-6C7E6418DCDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D0D377E7-7ACF-45D2-9EAD-78497EDC50D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0D377E7-7ACF-45D2-9EAD-78497EDC50D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0D377E7-7ACF-45D2-9EAD-78497EDC50D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0D377E7-7ACF-45D2-9EAD-78497EDC50D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A843FD4-4987-4ED1-9573-6C7E6418DCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A843FD4-4987-4ED1-9573-6C7E6418DCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A843FD4-4987-4ED1-9573-6C7E6418DCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A843FD4-4987-4ED1-9573-6C7E6418DCDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
