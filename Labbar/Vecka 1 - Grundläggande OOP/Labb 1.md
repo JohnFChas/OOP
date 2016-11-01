@@ -1,4 +1,4 @@
-﻿﻿# Labb 1 - Klasser och objekt
+# Labb 1 - Klasser och objekt
 
 ### Del 1
 * Skapa ett nytt console project i Visual Studio
