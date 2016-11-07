@@ -29,5 +29,5 @@
 		* Tar emot en NumberOperator-delegat
 		* Använder NumberOperator för att utföra följande matematiska operationer och returnera resultatet:
 			1. Addera alla priser och lägga på 20% på totalpriset
-			2. 
+			2. Addera alla priser över 1000 kr och ta bort 10% av totalen
 * Fixa lite menyer så att man kan använda programmet
