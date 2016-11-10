@@ -1,23 +1,23 @@
 # Labb 9 - TicTacToe
 ## Uppgifter
 Ni ska bygga ett TicTacToe-spel (tre i rad)
-* Programmet ska hela tiden visa spelbrädan
-* Man ska kunna vara två spelare på samma dator
-* Spelarna ska turas om att sätta ut sin markör
-* När spelbrädan är full ska eventet GameOver höjas
+* Programmet ska hela tiden visa spelbrÃ¤dan
+* Man ska kunna vara tvÃ¥ spelare pÃ¥ samma dator
+* Spelarna ska turas om att sÃ¤tta ut sin markÃ¶r
+* NÃ¤r spelbrÃ¤dan Ã¤r full ska eventet GameOver hÃ¶jas
 	* GameOver ska skriva ut ett meddelande och avsluta rundan
 
 ### Klasser och metoder
-Här är en lista på några saker jag vill se i era program, ni får gärna lägga till fler saker om ni känner att det behövs eller ändra om ni har bättre idéer!
-* Skapa en Node-klass som representerar varje ruta på brädan
+HÃ¤r Ã¤r en lista pÃ¥ nÃ¥gra saker jag vill se i era program, ni fÃ¥r gÃ¤rna lÃ¤gga till fler saker om ni kÃ¤nner att det behÃ¶vs eller Ã¤ndra om ni har bÃ¤ttre idÃ©er!
+* Skapa en Node-klass som representerar varje ruta pÃ¥ brÃ¤dan
 	* Properties:
 		* Taken: bool
 		* Player: int
-* Skapa en klass för spelbrädan och implementera ett interface enligt följande:
+* Skapa en klass fÃ¶r spelbrÃ¤dan och implementera ett interface enligt fÃ¶ljande:
 	* Properties:
-		* Grid: Node[] (alternativt Node[,] Googla "C# 2D array")
+		* Grid: Node\[\] (alternativt Node[,] Googla "C# 2D array")
 	* Metoder:
 		* PlaceMarker(int row, int col, int player)
 
 ## Extrauppgift
-* Om någon av spelarna får tre i rad ska GameOver eventet höjas med ett meddelande som berättar vem som vann
+* Om nÃ¥gon av spelarna fÃ¥r tre i rad ska GameOver eventet hÃ¶jas med ett meddelande som berÃ¤ttar vem som vann
