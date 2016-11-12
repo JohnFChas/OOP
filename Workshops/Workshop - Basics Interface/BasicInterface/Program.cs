@@ -20,6 +20,7 @@ namespace BasicInterface
             //plane.Fly();
             #endregion
 
+            #region New stuff
             // Typing an object variable to an interface means we can treat
             // all classes/object implementing this interface the same way.
             // For example we may add different classes to a List of interfaces.
@@ -54,6 +55,7 @@ namespace BasicInterface
             {
                 Console.WriteLine(speakingThing.Speak());
             }
+            #endregion
         }
     }
 }
