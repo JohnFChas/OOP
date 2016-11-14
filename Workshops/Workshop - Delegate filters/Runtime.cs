@@ -1,14 +1,12 @@
-﻿using DelegateFilters.Filters;
-using DelegateFilters.Managers;
-using DelegateFilters.Models;
+﻿using DelegatesWorkshop.Filters;
+using DelegatesWorkshop.Managers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static DelegateFilters.Delegates;
 
-namespace DelegateFilters
+namespace DelegatesWorkshop
 {
     class Runtime
     {
@@ -16,15 +14,21 @@ namespace DelegateFilters
         {
             PersonManager manager = new PersonManager();
 
-            manager.PrintWhere(PersonFilters.IsOld);
-            manager.PrintWhere(PersonFilters.IsYoung);
+            PersonFilter isOldFilter = PersonFilters.IsOld;
+            PersonFilter isYoungFilter = PersonFilters.IsYoung;
+            PersonFilter nameStartsWithAFilter = PersonFilters.NameStartsWithA;
 
-            PersonFilter filter = delegate (Person person)
-            {
-                return true;
-            };
+            Console.WriteLine("Old people:");
+            manager.PrintWhere(isOldFilter);
 
-            manager.PrintWhere(person => person.Age == 32);
+            Console.WriteLine("\nYoung people:");
+            manager.PrintWhere(isYoungFilter);
+
+            Console.WriteLine("\nPeople whose name starts with A:");
+            manager.PrintWhere(nameStartsWithAFilter);
+
+            Console.WriteLine("\nPeople with names longer than 4 letters:");
+            manager.PrintWhere(person => person.Name.Length > 4);
         }
     }
 }

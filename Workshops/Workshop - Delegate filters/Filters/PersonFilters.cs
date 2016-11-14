@@ -1,11 +1,11 @@
-﻿using DelegateFilters.Models;
+﻿using DelegatesWorkshop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelegateFilters.Filters
+namespace DelegatesWorkshop.Filters
 {
     class PersonFilters
     {
@@ -17,6 +17,11 @@ namespace DelegateFilters.Filters
         public static bool IsYoung(Person person)
         {
             return person.Age < 50;
+        }
+
+        public static bool NameStartsWithA(Person person)
+        {
+            return person.Name[0] == 'A';
         }
     }
 }

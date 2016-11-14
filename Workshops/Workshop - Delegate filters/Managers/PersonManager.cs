@@ -1,12 +1,11 @@
-﻿using DelegateFilters.Models;
+﻿using DelegatesWorkshop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static DelegateFilters.Delegates;
 
-namespace DelegateFilters.Managers
+namespace DelegatesWorkshop.Managers
 {
     class PersonManager
     {
@@ -16,10 +15,10 @@ namespace DelegateFilters.Managers
         {
             People = new List<Person>
             {
-                new Person { Name = "Frank", Age = 40 },
-                new Person { Name = "Anna", Age = 65 },
-                new Person { Name = "Steve", Age = 32 },
-                new Person { Name = "Gunhild", Age = 80 }
+                new Person { Name = "Frank", Age = 41 },
+                new Person { Name = "Anna", Age = 28 },
+                new Person { Name = "Steve", Age = 68 },
+                new Person { Name = "Agda", Age = 32 }
             };
         }
 

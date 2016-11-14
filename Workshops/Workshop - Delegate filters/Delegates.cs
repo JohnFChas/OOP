@@ -1,14 +1,11 @@
-﻿using DelegateFilters.Models;
+﻿using DelegatesWorkshop.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelegateFilters
+namespace DelegatesWorkshop
 {
-    class Delegates
-    {
-        public delegate bool PersonFilter(Person person);
-    }
+    public delegate bool PersonFilter(Person person);
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelegateFilters.Models
+namespace DelegatesWorkshop.Models
 {
-    class Person
+    public class Person
     {
         public string Name { get; set; }
         public int Age { get; set; }
