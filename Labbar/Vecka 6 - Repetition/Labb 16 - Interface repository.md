@@ -1,13 +1,13 @@
-# Labb 15 - Interface
+# Labb 16 - Interface repository
 ## Uppgifter
-* Skapa interfacet IProductRepository med följande metoder:
+* Skapa interfacet IProductRepository med fÃ¶ljande metoder:
 	* Add()
 	* Get(int id)
 	* GetAll()
 	* Update(Product updatedProduct)
 	* Delete(int id)
-* Skapa klasserna ListProductRepository och FileProductRepository och låt dem implementera IProductRepository
-* Låt ListProductRepository spara och hämta data från en privat lista
-* Låt FileProductRepository spara och hämta data från en fil, se JSON-workshoppen för ett exempel på hur man kan hantera serialisering och avserialisering av text i filer
-* Skapa två instanser av IProductRepository, en för ListProductRepository och en för FileProductRepository
-* Anropa metoderna i båda och se hur två objekt som implementerar samma methoder implementerar olika lösningar
+* Skapa klasserna ListProductRepository och FileProductRepository och lÃ¥t dem implementera IProductRepository
+* LÃ¥t ListProductRepository spara och hÃ¤mta data frÃ¥n en privat lista
+* LÃ¥t FileProductRepository spara och hÃ¤mta data frÃ¥n en fil, se JSON-workshoppen fÃ¶r ett exempel pÃ¥ hur man kan hantera serialisering och avserialisering av text i filer
+* Skapa tvÃ¥ instanser av IProductRepository, en fÃ¶r ListProductRepository och en fÃ¶r FileProductRepository
+* Anropa metoderna i bÃ¥da och se hur tvÃ¥ objekt som implementerar samma methoder implementerar olika lÃ¶sningar
